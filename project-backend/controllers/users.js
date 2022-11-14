@@ -37,7 +37,6 @@ const auth_sigin_post = async (req, res) =>{
             return res.json({message: "User not Register"}).status(400);
         }
 
-        
         const isMatch = await bcrypt.compareSync(password, user.password);
         console.log(password); 
         console.log(user.password); 
@@ -89,6 +88,28 @@ async function createUserCar(req,res) {
     res.json(user)
 }
 
+async function updateUser() {
+    try {
+    let updatedUser = await User.findByIdAndUpdate(
+        req.params._id,
+        req.body
+    )
+    res.json({message: 'User updated Successfully!'})
+    // res.json(updatedUser)
+    } catch (err) {
+        res.json(err)
+    }
+}
+
+async function deleteUser(req, res) {
+    try {
+        await User.findByIdAndDelete(req.params._id)
+        res.json({message: 'User deleted successfully!'})
+    } catch (err) {
+        res.json(err)
+    }
+}
+
 async function getAllUsers(req, res) {
     try {
         const allUsers = await User.find().populate('cars')
@@ -101,5 +122,8 @@ async function getAllUsers(req, res) {
 module.exports = {
     createUser,
     getAllUsers,
+    createUserCar,
+    updateUser,
+    deleteUser,
     auth_sigin_post
 }
