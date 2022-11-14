@@ -1,35 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-const registerHandler = (user) => {
-  axios.post("http://localhost:4000/users", user)
-  .then(res => {
-    console.log(res);
-    })
-  .catch(err => {
-    console.log(err)
-  });
+import React from 'react';
+function App() {
+  return (
+    <div className="App">
+      <h1>aysahy</h1>
+      <p>jkjkjk</p>
+   </div>
+  );
 }
+
+// const registerHandler = (user) => {
+//   axios.post("http://localhost:4000/users", user)
+//   .then(res => {
+//     console.log(res);
+//     })
+//   .catch(err => {
+//     console.log(err)
+//   });
+// }
 
 export default App;
