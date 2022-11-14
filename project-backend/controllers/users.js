@@ -10,7 +10,7 @@ const jwt = require("jsonwebtoken");
 
 async function createUser(req,res) {
     try {
-        // Plain Text to Ecrypted String
+    
         let hashedPassword = bcrypt.hashSync(req.body.password, salt)
         console.log(hashedPassword);
 
@@ -26,24 +26,23 @@ async function createUser(req,res) {
 }
 
 const auth_sigin_post = async (req, res) =>{
-    let {email, password} = req.body;
-    console.log(email);
+    let {username, password} = req.body;
+    console.log(username);
 
     try{
-        let user = await User.findOne({email}); // email: email
+        let user = await User.findOne({email}); 
         console.log(user);
 
         if(!user){
-            return res.json({message: "User not found"}).status(400);
+            return res.json({message: "User not Register"}).status(400);
         }
 
-        // Password Comparison
         const isMatch = await bcrypt.compareSync(password, user.password);
-        console.log(password); // Plaintext password
-        console.log(user.password); // Encrypted password
+        console.log(password); 
+        console.log(user.password); 
 
         if(!isMatch) {
-            return res.json({message: "Password not matched"}).status(401);
+            return res.json({message: "Invalid Password"}).status(401);
         }
 
         // JWT Token
@@ -89,7 +88,6 @@ async function createUserCar(req,res) {
     res.json(user)
 }
 
-
 async function updateUser() {
     try {
     let updatedUser = await User.findByIdAndUpdate(
@@ -124,6 +122,7 @@ async function getAllUsers(req, res) {
 module.exports = {
     createUser,
     getAllUsers,
+    createUserCar,
     updateUser,
     deleteUser,
     auth_sigin_post

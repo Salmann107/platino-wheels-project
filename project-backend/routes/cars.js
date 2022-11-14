@@ -1,10 +1,15 @@
 const express = require('express')
 const router = express.Router()
-const carController = require('../controllers/car')
-// We import our controller functions above
+const carsController = require('../controllers/cars')
 
+const isLoggedIn = require("../helper/isLoggedIn");
 
-// We define the routes and controllers
+router.get('/cars', carsController.getAllCars)
 
+router.get('/cars/:_id', carsController.getCar)
 
-//still i havent finish the routes
+router.post('/cars', isLoggedIn, carsController.createCar)
+
+router.delete('/cars/:_id', carsController.deleteCar)
+
+module.exports = router
