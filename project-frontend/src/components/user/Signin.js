@@ -22,8 +22,8 @@ export default function Signin(props) {
 
         <Container>
             <Form.Group>
-                <Form.Label>Email Address</Form.Label>
-                <Form.Control name="email" onChange={changeHandler}></Form.Control>
+                <Form.Label>username</Form.Label>
+                <Form.Control name="username" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
             <Form.Group>
