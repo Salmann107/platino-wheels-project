@@ -13,6 +13,7 @@ Car.insertMany([
         
 
     },
+
     {
         Photo:'',
         Brand: 'Bugatti',
