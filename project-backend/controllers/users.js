@@ -48,8 +48,9 @@ const auth_sigin_post = async (req, res) =>{
         // JWT Token
         const payload = {
             user: {
-                id: user._id,
-                name: user.name
+                username: user.username
+                // name: 'Test!!!'
+                // id: user._id,
             }
         }
 

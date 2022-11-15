@@ -26,8 +26,8 @@ Car.insertMany([
         Brand: 'Ferrari',
         Year: '2020',
         Price:'381,469$',
-        Description: 'Ferrari 812 Superfast | Grigio Scuro                  This is what happens when you add a “Historical Color” to superfast high-tech material: your heart beats like a 812 times a minute. Especially when it has the appearance and luxury of this specific Ferrari: our 812 Superfast includes Carbon Racing Seats with Tricolore striping, a Suspension Lifter, JBL sound system, full carbon interior spec and 800 hp non-turbo-power on the rear wheels. Let us show you what a brilliant supercar looks like and come visit Holland superfast please'
-       
+        Description: 'Ferrari 812 Superfast | Grigio Scuro                  This is what happens when you add a “Historical Color” to superfast high-tech material: your heart beats like a 812 times a minute. Especially when it has the appearance and luxury of this specific Ferrari: our 812 Superfast includes Carbon Racing Seats with Tricolore striping, a Suspension Lifter, JBL sound system, full carbon interior spec and 800 hp non-turbo-power on the rear wheels. Let us show you what a brilliant supercar looks like and come visit Holland superfast please',
+        Contact: '+973 37756671'
     },
     {
         Photo:'',
