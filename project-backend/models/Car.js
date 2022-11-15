@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 
 const CarModel = new Schema({
 
-    photo: {type: String, required: true},
+    photo: {type: String},
     Brand: {type: String, required: true},
     Year:  {type: String, required: true},
     Price: {type: String, required: true},
