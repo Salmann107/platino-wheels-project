@@ -15,7 +15,7 @@ function NavBar(props) {
           <li><Link to='/policy'>Policy</Link></li>
 
           <li><Link to="/logout" onClick={props.onLogoutHandler}>Logout</Link></li>
-          {props.user ? "Welcome " + props.user.user.name : null}
+          {props.user ? "Welcome " + props.user.user.username : null}
           </ul>
         </div>
      ) : (

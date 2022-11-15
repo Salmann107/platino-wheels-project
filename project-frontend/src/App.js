@@ -56,7 +56,9 @@ function App() {
         localStorage.setItem("token", res.data.token);
         let user = jwt_decode(res.data.token);
         setIsAuth(true);
+        console.log('login handler', user)
         setUser(user);
+        debugger
       }
     })
     .catch(err => {
