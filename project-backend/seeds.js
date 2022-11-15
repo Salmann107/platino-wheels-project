@@ -31,7 +31,7 @@ Car.insertMany([
     },
     {
         Photo:'',
-        Brand: 'Rolls-Royce',
+        Brand: 'Rolls Royce',
         Year: '2019',
         Price:'647,967$',
         Description: 'Rolls-Royce Motor Cars Beverly Hills is pleased to present for sale this stunning 2019 Rolls-Royce Cullinan as part of our hand-selected pre-owned lineup. This gorgeous example is finished in the Black Diamond exterior paint and Creme Light interior / mileage 14K Mi / Engine: 12 Cylinder / Gearbox:Automatic /Fueltype:Petrol',
