@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar(props) {
   return (
-    <>
+    <> 
     {props.isAuth ? (
         <div>
           <ul className="navbar-ul">
