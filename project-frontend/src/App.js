@@ -1,9 +1,10 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar'
+import React from 'react'
+import NavBar from './components/NavBar/NavBar';
 import AboutPage from './components/AboutPage/AboutPage'
 import HomePage from './components/HomePage/HomePage'
-import PolicyPage from '/components/PolicyPage/PolicyPage'
-import ContactPage from '/components/ContactPage/ContactPage'
+import PolicyPage from './components/PolicyPage/PolicyPage'
+import ContactPage from './components/ContactPage/ContactPage'
 import CategoryPage from './components/CategoryPage/CategoryPage'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
