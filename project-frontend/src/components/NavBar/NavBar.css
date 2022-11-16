@@ -1,34 +1,86 @@
 .navbar-ul {
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style-type: none;
-    margin: 0;
+    text-align: center;
+    margin: 10;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
 .navbar-ul > li {
      display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
-    float: left;
-}
-
-
-.navbar-ul > li:hover {
-    /* background-color: grey;
-    border-radius: 5px;
-    padding: 5px; */
-    background-color: #111;
-}
-
-
-.HA2{
-    display: block;
+  text-decoration: none; 
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
       float: left;
+}
+
+
+.navbar-ul > li:hover {
+    background-color: red;
+}
+
+.N1{
+    color: white;
+    text-decoration: none;
+}
+
+.N2{
+    color:white;
+    text-decoration: none;
+}
+
+.N3{
+    color:white;
+    text-decoration: none;
+}
+
+.N4{
+    color: white;
+    text-decoration: none;
+}
+
+
+.N7{
+    color: white;
+    text-decoration: none;
+}
+
+.N5{
+    color:white;
+    text-decoration: none;
+}
+
+.N6{
+    color: white;
+    text-decoration: none;
+}
+
+.N7{
+    color: white;
+    text-decoration: none;
+}
+.N8{
+    color: white;
+    text-decoration: none;
+}
+.N9{
+    color: white;
+    text-decoration: none;
+}
+
+.NAVBAR2{
+    color: white;
+    text-align: center;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
