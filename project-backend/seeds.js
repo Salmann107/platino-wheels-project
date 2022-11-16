@@ -5,7 +5,7 @@ const Car = require('./models/Car')
 Car.insertMany([
     {
         Photo:'',
-        Brand: 'Lamborghini ',
+        Brand: 'Lamborghini',
         Year: '2015 ',
         Price: 'Price On Request',
         Description: 'Lamborghini Huracan | This is a smoke free Carfax certified 2015 Lamborghini Huracan LP610-4 coupe equipped with a 5.2L 610HP V10 engine and a 7-speed LDS dual-clutch with auto paddle shift transmission and AWD',
@@ -121,7 +121,7 @@ Car.insertMany([
         Year:'2023',
         Price:'$ 63,195',
         Description:'chevrolet Corvett Sting Ray | The 2023 model year marks the return of the high-performance Z06 but this time with a different kind of engine. Its powered by a 5.5-liter V-8 inspired by the Corvette racing program. Equipped with a flat-plane crank, it can rev to 8,600 rpm and produces 670 hp and 460 lb-ft of torque',
-        Contact:'For more details please contact Mohammad Salman',
+        Contact:'+973 34452671',
     },
 
     {
@@ -130,7 +130,7 @@ Car.insertMany([
         Year:'2022',
         Price:'$ 315,000',
         Description:'McLaren Spider 720S | The McLaren 720S is a force of nature. Its 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque. 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
-        Contact:'For more details please contact Mohammad Salman',
+        Contact:'+973 34566824',
     },
     {
         photo:'',
@@ -138,7 +138,7 @@ Car.insertMany([
         Year:'2022',
         Price:'$ 1,979,098',
         Description:'MCLAREN ELVA |The Elva can accelerate to 100 km/h (62 mph) in less than three seconds and to 200 km/h (124 mph) in 6.7 seconds. Fuel Consumption (comb.): 11.9 l/100 km. Fuel Consumption (in town): 20.6 l/100 km, Fuel Consumption (out of town): 10.7 l/100 km, CO₂ Emissio(comb.): 270.0 g/km,CO₂ Efficiency. Rating: G',
-        Contact:'For more details please contact Mohammad Salman',
+        Contact:'+973 378899456',
     },
  
 

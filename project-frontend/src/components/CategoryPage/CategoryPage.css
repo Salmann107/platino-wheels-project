@@ -1,0 +1,20 @@
+.Category {
+    display: inline-flex;
+    list-style: none;
+    padding-top: 50px;
+}
+
+#Bugatti {
+    padding-right: 50px;
+}
+#Ferrari{
+    padding-right: 50px;
+}
+#Lambo{
+    padding-right: 50px;
+
+}
+#AM{
+    padding-top:50px;
+    float: left;
+}

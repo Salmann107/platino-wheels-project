@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 import {Container, Form, Button} from "react-bootstrap";
+import './signup.css';
+
 
 export default function Signup(props) {
 
@@ -20,7 +22,7 @@ export default function Signup(props) {
     <div>
         <h1>Signup</h1>
 
-        <Container>
+        <Container id = 'S1'>
             <Form.Group>
                 <Form.Label>Username</Form.Label>
                 <Form.Control name="username" onChange={changeHandler}></Form.Control>
