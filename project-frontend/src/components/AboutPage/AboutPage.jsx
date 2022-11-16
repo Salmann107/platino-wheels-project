@@ -2,11 +2,12 @@ import React from 'react'
 import './AboutPage.css';
 function AboutPage() {
   return (
-    <div>
-        <div>
-    <img src="https://i.imgur.com/xYMyBt9.jpg" alt="pic" />
+
+  <div className="H">
+   
+    <img src="https://i.imgur.com/0j0M5Rz.jpg" alt="pic" />
     </div>
-  </div>
+
   )
 }
 
