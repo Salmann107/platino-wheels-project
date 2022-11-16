@@ -15,9 +15,10 @@ function HomePage() {
 Connecting Buyers and Sellers Worldwide, 
 to Facilitate Life's Most Important Personal Transactions
 </p>
-
-
-
+<>
+<label for="file" style="margin-left:50px;" class="pic">upload photo:</label>
+    <input type="file" name="Img" ></input>
+</>
 <p1>Platino Wheels are the Best of the Best</p1>
 <p>Through a combination of automation and manual curation our moderation team 
 selects the highest quality listings on the marke t</p>
