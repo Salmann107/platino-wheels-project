@@ -12,6 +12,8 @@ import Lamborghini from './components/Brand/Lamborghini.js'
 import Rivian from './components/Brand/Rivian.js'
 import RollsRoyce from './components/Brand/RollsRoyce.js'
 import AstonMartin from './components/Brand/AstonMartin.js'
+import Mclaren from './components/Brand/Mclaren';
+import Corvette from './components/Brand/Corvette';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
 import Signup from './components/user/Signup'
@@ -97,7 +99,8 @@ function App() {
           <Route path='/category/Lamborghini' element={<Lamborghini />} />
           <Route path='/category/RollsRoyce' element={<RollsRoyce />} />
           <Route path='/category/Rivian' element={<Rivian />} />
-          
+          <Route path='/category/Mclaren' element={<Mclaren />} />
+          <Route path='/category/Corvette' element={<Corvette />} />          
 
           <Route path="/signup" element={<Signup register={registerHandler}></Signup>}></Route>
           <Route path="/signin" element={isAuth ? <HomePage></HomePage> : <Signin login={loginHandler}></Signin>}></Route>

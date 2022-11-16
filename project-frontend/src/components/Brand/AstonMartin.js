@@ -22,11 +22,11 @@ export default function AstonMartin() {
 
       {carsList.length ? carsList.map(car => 
         <div key={car._id}>
-        <p>{car.Brand}</p>
-        <p>{car.Year}</p>
-        <p>{car.Price}</p>
-        <p>{car.Description}</p>
-        <p>{car.Contact}</p>
+        <p> Brand : {car.Brand}</p>
+        <p> Year : {car.Year}</p>
+        <p> Price : {car.Price}</p>
+        <p> Description : {car.Description}</p>
+        <p> Contact Information : {car.Contact}</p>
         </div>
         ) : null}
 

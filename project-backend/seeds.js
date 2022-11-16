@@ -8,17 +8,17 @@ Car.insertMany([
         Brand: 'Lamborghini',
         Year: '2015 ',
         Price: 'Price On Request',
-        Description: 'Lamborghini Huracan | This is a smoke free Carfax certified 2015 Lamborghini Huracan LP610-4 coupe equipped with a 5.2L 610HP V10 engine and a 7-speed LDS dual-clutch with auto paddle shift transmission and AWD',
-        Contact: '+973 34310225'
+        Description: 'Lamborghini Huracan | Smoke free Carfax | LP610-4 coupe equipped | 5.2L 610HP V10 engine | 7-speed LDS dual-clutch | Auto paddle shift transmission and AWD',
+        Contact: '+973 3431 0225'
     },
 
     {
         Photo:'',
-        Brand: 'Lamborghini ',
+        Brand: 'Lamborghini',
         Year: '2021',
         Price: '$ 3,500,000',
-        Description: 'Lamborghini Sian | The indomitable V12 engine of the Sián Roadster incorporates titanium intake valves and is uprated to 785 CV (577 kW) at 8,500 rpm, thus becoming the most powerful Lamborghini engine ever made, delivering a total of 819 CV (602 kW) and reaching a top speed of over 350 km/h',
-        Contact: '+973 35666878'
+        Description: 'Lamborghini Sian | The indomitable V12 engine of the Sián Roadster incorporates titanium intake valves and is uprated to 785 CV (577 kW) at 8,500 rpm| The most powerful Lamborghini engine ever made | delivering a total of 819 CV (602 kW) | Reaching a top speed of over 350 km/h',
+        Contact: '+973 3566 6878'
     },
 
     {
@@ -26,16 +26,16 @@ Car.insertMany([
         Brand: 'Bugatti',
         Year: '2019',
         Price: '$ 3,819,854',
-        Description: '2019 Bugati Chiron Sport Ultra rare sport  only 4k miles. We are an authorized dealer for Rimac part of the Bugatti Rimac',
-        Contact: '+973 33860444'
+        Description: '2019 Bugati Chiron Sport Ultra rare sport | Only 4k miles',
+        Contact: '+973 3386 0444'
     },
     {
         Photo:'',
         Brand: 'Bugatti',
         Year: '2021',
         Price: '$ 13,400,000',
-        Description: ' Bugatti La Voiture Noire | the Bugatti La Voiture Noire specs are built upon a proven Bugatti chassis. Because this car is destined for a private collection, we might not see it run a quarter-mile. Given the performance of similar models, we will estimate the Bugatti La Voiture Noire 0-60 time of under 3 seconds, with a low-9 second 1/4 mile.',
-        Contact: '+973 3386587',
+        Description: ' Bugatti La Voiture Noire | Specs are built upon a proven Bugatti chassis | This car is destined for a private collection| Given the performance of similar models| Will estimate 0-60 time of under 3 seconds | With a low-9 second 1/4 mile',
+        Contact: '+973 3386 5587',
     },
 
     {
@@ -43,51 +43,51 @@ Car.insertMany([
         Brand: 'Ferrari',
         Year: '2020',
         Price:'$ 381,469',
-        Description: 'Ferrari 812 Superfast | Grigio Scuro this is what happens when you add a “Historical Color” to superfast high-tech material: your heart beats like a 812 times a minute. Especially when it has the appearance and luxury of this specific Ferrari: our 812 Superfast includes Carbon Racing Seats with Tricolore striping, a Suspension Lifter, JBL sound system, full carbon interior spec and 800 hp non-turbo-power on the rear wheels. Let us show you what a brilliant supercar looks like and come visit Holland superfast please',
-        Contact: '+973 37756671'
+        Description: 'Ferrari 812 Superfast | Grigio Scuro | Added a “Historical Color” to superfast high-tech material | 812 Superfast includes Carbon Racing Seats with Tricolore striping, a Suspension Lifter | JBL sound system | full carbon interior |spec and 800 hp non-turbo-power on the rear wheels',
+        Contact: '+973 3775 6671'
     },
     {
         Photo:'',
         Brand: 'Ferrari',
         Year: '2020',
         Price:'$ 599,252',
-        Description: 'Emission Standard: Euro 6 Fuel Consumption (comb.): 12.0 l/100 km Fuel Consumption (in town): 16.9 l/100 km Fuel Consumption (out of town): 9.2 l/100 km CO₂ Emissions (comb.): 273.0 g/km CO₂ Efficiency Rating: G, For full details and descriptions, please donhet hsitate to contact our sales team at Hollmann International.',
-        Contact: '+973 37756671'
+        Description: 'Emission Standard | Euro 6 Fuel Consumption (comb.)| 12.0 l/100 km Fuel Consumption (in town)| 16.9 l/100 km Fuel Consumption (out of town)| 9.2 l/100 km CO₂ Emissions (comb.)| 273.0 g/km CO₂ Efficiency Rating',
+        Contact: '+973 3775 6671'
     },
 
     {
         Photo:'',
-        Brand: 'Rolls Royce',
+        Brand: 'RollsRoyce',
         Year: '2019',
         Price:'$ 647,967',
         Description: 'Rolls-Royce Motor Cars Beverly Hills is pleased to present for sale this stunning 2019 Rolls-Royce Cullinan as part of our hand-selected pre-owned lineup. This gorgeous example is finished in the Black Diamond exterior paint and Creme Light interior / mileage 14K Mi / Engine: 12 Cylinder / Gearbox:Automatic /Fueltype:Petrol',
-        Contact:'+973 66622691'
+        Contact:'+973 6662 2691'
     },
     {
         Photo:'',
-        Brand: 'Rolls-Royce',
+        Brand: 'RollsRoyce',
         Year: '2018',
         Price:'Price On Request',
         Description: '2018 Rolls-Royce Wraith | 2dr Black Badge with Starlight Headliner features a 6.6L 12 CYLINDER 12cyl Gasoline engine. It is equipped with a 8 Speed Automatic transmission. The vehicle is Diamond Black Metallic with a Cobalto Blue / Black Leather interior. - Climate Control, Dual Zone Climate Control, Cruise Control, Power Steering, Power Mirrors, Leather Steering Wheel, Rear Air Conditioning, Wood Trim, Clock, Tachometer, Telescoping Steering Wheel,',
-        Contact:'+973 66688741'
+        Contact:'+973 6668 8741'
     },
 
     {
         Photo:'',
-        Brand: 'Aston Martin',
+        Brand: 'AstonMartin',
         Year: '2021',
         Price:'$ 148,809',
         Description:'Aston Martin Vantage Roadster | Caribbean Blue Pearl Thanks to this insanely magnificent Aston Martin Vantage Roadster, you dont have to travel to the Bahamas to get the ultimate holiday feeling. Between the luxury yachts at the Côte dAzur, this bright blue AM Vantage will also make the difference,What a gem!',
-        Contact:'+973 34310225'
+        Contact:'+973 3431 0225'
     },
     {
         Photo:'',
-        Brand: 'Aston Martin',
+        Brand: 'AstonMartin',
         Year: '2012',
         Price:'$ 355,917',
         Description:'2012 Aston Martin Vanquish | Inspired by the Aston Martin designs of the 1980s and 90s, the Vengeance is the culmination of Kahns lifelong pursuit to create the car he has always wanted to drive. His personality is evident in every curve of the coachbuilt body, the result of a painstaking design process, working and reworking each line and surface to the point of perfection.',
 
-        Contact:'+973 34567489'
+        Contact:'+973 3456 7489'
     },
 
     {
@@ -96,7 +96,7 @@ Car.insertMany([
         Year:'2022',
         Price:'$ 99,595',
         Description:'Rivian R1T Adventure Package AWD | Excellent condition with only 184 miles. 2022 Rivian R1T Adventure Edition. LA Silver with Black Mountain and Dark Ash wood interior. Large battery pack, 21 wheel and tire package, tow hooks, and quad -motor AWD. Please call to set up an appointment today! Errors and Omissions Disclaimer:Our dealership is not responsible for voided factory warranties. Dealer is not responsible for any option listed in the ad. Please verify the options at the time of purchase. ',
-        Contact:'KAREEM PHONE NUMBER'
+        Contact:'+973 3947 4769'
     },
     {
         Photo:'',
@@ -109,36 +109,50 @@ Car.insertMany([
 
     {
         photo:'',
-        Brand:'Chevorlete',
+        Brand:'Corvette',
         Year:'2023',
         Price:'$ 116,000',
         Description:'Chevorlet Corvet C8 Z06 | 5.5L LT6 V8 Naturally aspirated, 0 to 100 KM/PH in 2.6 seconds 670 horse power',
-        Contact:'For more details please contact Mohammad Salman',
+        Contact:'+973 6633 1237',
     },
     {
         photo:'',
-        Brand:'Chevorlete',
+        Brand:'Corvette',
         Year:'2023',
         Price:'$ 63,195',
         Description:'chevrolet Corvett Sting Ray | The 2023 model year marks the return of the high-performance Z06 but this time with a different kind of engine. Its powered by a 5.5-liter V-8 inspired by the Corvette racing program. Equipped with a flat-plane crank, it can rev to 8,600 rpm and produces 670 hp and 460 lb-ft of torque',
+<<<<<<< HEAD
         Contact:'+973 34452671',
+=======
+        Contact:'+973 6633 3892',
+>>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
     },
 
     {
         photo:'',
-        Brand:'Mc Laren',
+        Brand:'McLaren',
         Year:'2022',
+<<<<<<< HEAD
         Price:'$ 315,000',
         Description:'McLaren Spider 720S | The McLaren 720S is a force of nature. Its 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque. 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
         Contact:'+973 34566824',
+=======
+        Price:'$ 1,315,000',
+        Description:'McLaren Spider 720S | The McLaren 720S is a force of nature| 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque | 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
+        Contact:'+973 3399 0033',
+>>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
     },
     {
         photo:'',
-        Brand:'Mc Laren',
+        Brand:'McLaren',
         Year:'2022',
         Price:'$ 1,979,098',
         Description:'MCLAREN ELVA |The Elva can accelerate to 100 km/h (62 mph) in less than three seconds and to 200 km/h (124 mph) in 6.7 seconds. Fuel Consumption (comb.): 11.9 l/100 km. Fuel Consumption (in town): 20.6 l/100 km, Fuel Consumption (out of town): 10.7 l/100 km, CO₂ Emissio(comb.): 270.0 g/km,CO₂ Efficiency. Rating: G',
+<<<<<<< HEAD
         Contact:'+973 378899456',
+=======
+        Contact:'+973 3329 2288',
+>>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
     },
  
 

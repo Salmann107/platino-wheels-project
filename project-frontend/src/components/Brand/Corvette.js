@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-export default function Ferrari() {
+export default function Corvette() {
 
   const [carsList, setCarsList] = useState([])
 
@@ -11,10 +11,11 @@ export default function Ferrari() {
 
 
   const getCars = () => {
-    axios.get('http://localhost:4000/cars/category/Ferrari')
+    axios.get('http://localhost:4000/cars/category/Corvette')
     .then(res => setCarsList(res.data))
     .catch(err => console.log(err))
   }
+
 
   return (
     <div>
@@ -30,6 +31,7 @@ export default function Ferrari() {
         ) : null}
 
         <br></br>
+
 
     </div>
   )
