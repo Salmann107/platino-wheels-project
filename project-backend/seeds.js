@@ -121,26 +121,17 @@ Car.insertMany([
         Year:'2023',
         Price:'$ 63,195',
         Description:'chevrolet Corvett Sting Ray | The 2023 model year marks the return of the high-performance Z06 but this time with a different kind of engine. Its powered by a 5.5-liter V-8 inspired by the Corvette racing program. Equipped with a flat-plane crank, it can rev to 8,600 rpm and produces 670 hp and 460 lb-ft of torque',
-<<<<<<< HEAD
-        Contact:'+973 34452671',
-=======
         Contact:'+973 6633 3892',
->>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
     },
 
     {
         photo:'',
         Brand:'McLaren',
         Year:'2022',
-<<<<<<< HEAD
-        Price:'$ 315,000',
-        Description:'McLaren Spider 720S | The McLaren 720S is a force of nature. Its 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque. 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
-        Contact:'+973 34566824',
-=======
         Price:'$ 1,315,000',
         Description:'McLaren Spider 720S | The McLaren 720S is a force of nature| 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque | 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
         Contact:'+973 3399 0033',
->>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
+
     },
     {
         photo:'',
@@ -148,11 +139,7 @@ Car.insertMany([
         Year:'2022',
         Price:'$ 1,979,098',
         Description:'MCLAREN ELVA |The Elva can accelerate to 100 km/h (62 mph) in less than three seconds and to 200 km/h (124 mph) in 6.7 seconds. Fuel Consumption (comb.): 11.9 l/100 km. Fuel Consumption (in town): 20.6 l/100 km, Fuel Consumption (out of town): 10.7 l/100 km, CO₂ Emissio(comb.): 270.0 g/km,CO₂ Efficiency. Rating: G',
-<<<<<<< HEAD
-        Contact:'+973 378899456',
-=======
         Contact:'+973 3329 2288',
->>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
     },
  
 
