@@ -16,7 +16,7 @@ Car.insertMany([
         Photo:'',
         Brand: 'Lamborghini ',
         Year: '2021',
-        Price: '3,500,000',
+        Price: '$ 3,500,000',
         Description: 'Lamborghini Sian | The indomitable V12 engine of the Sián Roadster incorporates titanium intake valves and is uprated to 785 CV (577 kW) at 8,500 rpm, thus becoming the most powerful Lamborghini engine ever made, delivering a total of 819 CV (602 kW) and reaching a top speed of over 350 km/h',
         Contact: '+973 35666878'
     },
@@ -76,7 +76,7 @@ Car.insertMany([
         Photo:'',
         Brand: 'Aston Martin',
         Year: '2021',
-        Price:'148,809$',
+        Price:'$ 148,809',
         Description:'Aston Martin Vantage Roadster | Caribbean Blue Pearl Thanks to this insanely magnificent Aston Martin Vantage Roadster, you dont have to travel to the Bahamas to get the ultimate holiday feeling. Between the luxury yachts at the Côte dAzur, this bright blue AM Vantage will also make the difference,What a gem!',
         Contact:'+973 34310225'
     },
@@ -84,7 +84,7 @@ Car.insertMany([
         Photo:'',
         Brand: 'Aston Martin',
         Year: '2012',
-        Price:'$355,917',
+        Price:'$ 355,917',
         Description:'2012 Aston Martin Vanquish | Inspired by the Aston Martin designs of the 1980s and 90s, the Vengeance is the culmination of Kahns lifelong pursuit to create the car he has always wanted to drive. His personality is evident in every curve of the coachbuilt body, the result of a painstaking design process, working and reworking each line and surface to the point of perfection.',
 
         Contact:'+973 34567489'
@@ -94,7 +94,7 @@ Car.insertMany([
         Photo:'',
         Brand:'Rivian',
         Year:'2022',
-        Price:'99,595$',
+        Price:'$ 99,595',
         Description:'Rivian R1T Adventure Package AWD | Excellent condition with only 184 miles. 2022 Rivian R1T Adventure Edition. LA Silver with Black Mountain and Dark Ash wood interior. Large battery pack, 21 wheel and tire package, tow hooks, and quad -motor AWD. Please call to set up an appointment today! Errors and Omissions Disclaimer:Our dealership is not responsible for voided factory warranties. Dealer is not responsible for any option listed in the ad. Please verify the options at the time of purchase. ',
         Contact:'KAREEM PHONE NUMBER'
     },
@@ -102,7 +102,7 @@ Car.insertMany([
         Photo:'',
         Brand:'Rivian',
         Year:'2022',
-        Price:'$144,950',
+        Price:'$ 144,950',
         Description:'Rivian R1S Launch Edition | 2022 Rivian R1S Launch Edition the Most Eagerly Anticipated New SUV On The Market! * Beautiful Launch Green Paint Over Black Mountain and Dark Ash Wood Interior * Launch Edition Comes Nearly Fully Loaded With All The Desirable Options! *R1S Launch Edition Features* * Large Battery Pack * 316 Miles of Range * 20” All-Terrain Wheels and Tires * Special Interior Badging * Adventure Package * Premium Interior * Heated and Cooled Vegan Leather Seats * Air Compressor With Accessory Kit * Heated Steering Wheel * Natural Ash Grain Wood Interior * Rivian Elevation by Meridian Audio System * Removable Bluetooth Speaker *Additional Information* * Safety Guide Booklet * Original Window Sticker *Standard Features* * 128.9-kWh Battery Pack * 316 Mile Range * Quad Motors * 835hp/908 Lb-Ft of Torque  ',
         Contact:'KAREEM PHONE NUMBER'
     },
@@ -111,7 +111,7 @@ Car.insertMany([
         photo:'',
         Brand:'Chevorlete',
         Year:'2023',
-        Price:'$116,000',
+        Price:'$ 116,000',
         Description:'Chevorlet Corvet C8 Z06 | 5.5L LT6 V8 Naturally aspirated, 0 to 100 KM/PH in 2.6 seconds 670 horse power',
         Contact:'For more details please contact Mohammad Salman',
     },
@@ -119,8 +119,25 @@ Car.insertMany([
         photo:'',
         Brand:'Chevorlete',
         Year:'2023',
-        Price:'69,340',
-        Description:'chevrolet hellcat | The 6.2-liter supercharged V-8 Hellcat is unlike any car in the world, with 717 horsepower and 656 pound-feet of torque and a speed of 199 mph, after a 0-60 mph time of 3.5 seconds. Things escalate quickly from there. Theres the Redeye, with 797 hp and 707 lb-ft, and a time of 3.4 seconds',
+        Price:'$ 63,195',
+        Description:'chevrolet Corvett Sting Ray | The 2023 model year marks the return of the high-performance Z06 but this time with a different kind of engine. Its powered by a 5.5-liter V-8 inspired by the Corvette racing program. Equipped with a flat-plane crank, it can rev to 8,600 rpm and produces 670 hp and 460 lb-ft of torque',
+        Contact:'For more details please contact Mohammad Salman',
+    },
+
+    {
+        photo:'',
+        Brand:'Mc Laren',
+        Year:'2022',
+        Price:'$ 315,000',
+        Description:'McLaren Spider 720S | The McLaren 720S is a force of nature. Its 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque. 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
+        Contact:'For more details please contact Mohammad Salman',
+    },
+    {
+        photo:'',
+        Brand:'Mc Laren',
+        Year:'2022',
+        Price:'$ 1,979,098',
+        Description:'MCLAREN ELVA |The Elva can accelerate to 100 km/h (62 mph) in less than three seconds and to 200 km/h (124 mph) in 6.7 seconds. Fuel Consumption (comb.): 11.9 l/100 km. Fuel Consumption (in town): 20.6 l/100 km, Fuel Consumption (out of town): 10.7 l/100 km, CO₂ Emissio(comb.): 270.0 g/km,CO₂ Efficiency. Rating: G',
         Contact:'For more details please contact Mohammad Salman',
     },
  
