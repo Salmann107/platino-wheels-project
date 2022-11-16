@@ -4,7 +4,7 @@ const Car = require('./models/Car')
 
 Car.insertMany([
     {
-        Photo:'https://imgur.com/QGJsVZn',
+        Photo: 'https://imgur.com/QGJsVZn',
         Brand: 'Lamborghini',
         Year: '2015 ',
         Price: 'Price On Request',
