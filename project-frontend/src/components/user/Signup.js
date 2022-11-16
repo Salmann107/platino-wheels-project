@@ -22,8 +22,10 @@ export default function Signup(props) {
     <div>
         <h1>Signup</h1>
 
+
         <Container id = 'signup'>
             <Form.Group id = 'username'>
+
                 <Form.Label>Username</Form.Label>
                 <Form.Control name="username" onChange={changeHandler}></Form.Control>
             </Form.Group>

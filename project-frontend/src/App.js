@@ -1,19 +1,23 @@
 import './App.css';
 import React from 'react'
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/NavBar'
 import AboutPage from './components/AboutPage/AboutPage'
 import HomePage from './components/HomePage/HomePage'
 import PolicyPage from './components/PolicyPage/PolicyPage'
 import ContactPage from './components/ContactPage/ContactPage'
 import CategoryPage from './components/CategoryPage/CategoryPage'
+
 import Bugatti from './components/Brand/Bugatti.js'
 import Ferrari from './components/Brand/Ferrari.js'
 import Lamborghini from './components/Brand/Lamborghini.js'
 import Rivian from './components/Brand/Rivian.js'
+
 import RollsRoyce from './components/Brand/RollsRoyce.js'
 import AstonMartin from './components/Brand/AstonMartin.js'
+import McLaren from './components/Brand/McLaren';
+import Corvette from './components/Brand/Corvette';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
 import Signup from './components/user/Signup'
 import Signin from './components/user/Signin'
 import axios from 'axios';
@@ -91,13 +95,16 @@ function App() {
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/policy' element={<PolicyPage />} />
           <Route path='/category' element={<CategoryPage />} />
+
           <Route path='/category/Bugatti' element={<Bugatti />} />
           <Route path='/category/AstonMartin' element={<AstonMartin />} />
           <Route path='/category/Ferrari' element={<Ferrari />} />
           <Route path='/category/Lamborghini' element={<Lamborghini />} />
+
           <Route path='/category/RollsRoyce' element={<RollsRoyce />} />
           <Route path='/category/Rivian' element={<Rivian />} />
-          
+          <Route path='/category/McLaren' element={<McLaren />} />
+          <Route path='/category/Corvette' element={<Corvette />} />          
 
           <Route path="/signup" element={<Signup register={registerHandler}></Signup>}></Route>
           <Route path="/signin" element={isAuth ? <HomePage></HomePage> : <Signin login={loginHandler}></Signin>}></Route>
