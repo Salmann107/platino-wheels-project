@@ -131,7 +131,6 @@ Car.insertMany([
         Price:'$ 1,315,000',
         Description:'McLaren Spider 720S | The McLaren 720S is a force of nature| 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque | 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
         Contact:'+973 3399 0033',
-
     },
     {
         photo:'',
