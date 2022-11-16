@@ -1,8 +1,19 @@
-#S1 {
+
+body{
+    background-image: url();
+}
+#signup {
+    /* border: 2px solid red; */
     padding-top: 50px;
-    border: 2px solidred;
+    padding-right: 50px;
 }
 
-h1 {
-    color: blue;
+#email {
+    padding-right: 29px;
 }
+
+#password {
+    padding-left: 5px;
+}
+
+
