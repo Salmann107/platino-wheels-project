@@ -18,12 +18,12 @@ function CategoryPage(props) {
             <li><Link to='/category/Ferrari'>Ferrari</Link> </li>
             <li><Link to='/category/Lamborghini'>Lamborghini</Link> </li>
             <li><Link to='/category/RollsRoyce'>Rolls Royce</Link> </li>
+
             <li><Link to='/category/AstonMartin'>Aston Martin</Link> </li>
             <li><Link to='/category/Rivian'>Rivian</Link> </li>
             <li><Link to='/category/McLaren'>McLaren</Link> </li>
             <li><Link to='/category/Corvette'>Corvette</Link> </li>
-            McLaren
->>>>>>> 5799faf2241b5da637012275cf757590a7b809ae
+            
             </ul>
         
     </div> 
