@@ -20,7 +20,7 @@ function CategoryPage(props) {
     </div> 
     
    )}
-
-    
-
+   
+   
+   
 export default CategoryPage

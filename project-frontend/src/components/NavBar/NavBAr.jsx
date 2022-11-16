@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 function NavBar(props) {
   return (
-    <>
+    <> 
     {props.isAuth ? (
-        <div>
+        <div className='HA'>
           <ul className="navbar-ul">
           <li><Link to='/home'>Home</Link></li>
           <li><Link to='/about'>About</Link></li>
@@ -19,9 +19,9 @@ function NavBar(props) {
           </ul>
         </div>
      ) : (
-      <div>
+       <div className='HA2'>
       <ul className="navbar-ul">
-      <li><Link to='/home'>Home</Link></li>
+        <li><Link to='/home'>Home</Link></li>
       <li><Link to="/signup">Signup</Link></li>
       <li><Link to="/signin">Signin</Link></li>
       </ul>
