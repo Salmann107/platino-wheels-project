@@ -22,18 +22,20 @@ export default function Signup(props) {
     <div>
         <h1>Signup</h1>
 
-        <Container id = 'S1'>
-            <Form.Group>
+
+        <Container id = 'signup'>
+            <Form.Group id = 'username'>
+
                 <Form.Label>Username</Form.Label>
                 <Form.Control name="username" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
-            <Form.Group>
+            <Form.Group id = 'email'>
                 <Form.Label>Email Address</Form.Label>
                 <Form.Control name="email" onChange={changeHandler}></Form.Control>
             </Form.Group>
 
-            <Form.Group>
+            <Form.Group id = 'password'>
                 <Form.Label>Password</Form.Label>
                 <Form.Control name="password" type="password" onChange={changeHandler}></Form.Control>
             </Form.Group>
