@@ -121,16 +121,16 @@ Car.insertMany([
         Year:'2023',
         Price:'$ 63,195',
         Description:'chevrolet Corvett Sting Ray | The 2023 model year marks the return of the high-performance Z06 but this time with a different kind of engine. Its powered by a 5.5-liter V-8 inspired by the Corvette racing program. Equipped with a flat-plane crank, it can rev to 8,600 rpm and produces 670 hp and 460 lb-ft of torque',
-        Contact:'+973 34452671',
+        Contact:'+973 6633 3892',
     },
 
     {
         photo:'',
         Brand:'McLaren',
         Year:'2022',
-        Price:'$1,315,000',
-        Description:'McLaren Spider 720S | The McLaren 720S is a force of nature. Its 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque. 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
-        Contact:'+973 34566824',
+        Price:'$ 1,315,000',
+        Description:'McLaren Spider 720S | The McLaren 720S is a force of nature| 4.0L twin-turbocharged V8 delivers 720PS and 770Nm of torque | 0-60mph takes just 2.8 seconds. And 124mph arrives in an astonishing 7.8 seconds',
+        Contact:'+973 3399 0033',
     },
     {
         photo:'',
