@@ -5,7 +5,7 @@ function AboutPage() {
 
   <div className="H">
    
-    <img src="https://i.imgur.com/0j0M5Rz.jpg" alt="pic" />
+    <img src= "https://i.imgur.com/igJ2a7h.jpg" alt="pic" />
     </div>
 
   )

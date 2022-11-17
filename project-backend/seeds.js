@@ -4,7 +4,7 @@ const Car = require('./models/Car')
 
 Car.insertMany([
     {
-        Photo:'',
+        Photo: 'https://imgur.com/QGJsVZn',
         Brand: 'Lamborghini',
         Year: '2015 ',
         Price: 'Price On Request',
@@ -22,7 +22,7 @@ Car.insertMany([
     },
 
     {
-        Photo:'',
+        Photo:'https://imgur.com/MCNPEHm',
         Brand: 'Bugatti',
         Year: '2019',
         Price: '$ 3,819,854',
@@ -30,7 +30,7 @@ Car.insertMany([
         Contact: '+973 3386 0444'
     },
     {
-        Photo:'',
+        Photo:'https://i.imgur.com/ecvtwUD.jpg',
         Brand: 'Bugatti',
         Year: '2021',
         Price: '$ 13,400,000',
@@ -39,7 +39,7 @@ Car.insertMany([
     },
 
     {
-        Photo:'',
+        Photo:'https://imgur.com/tH14t2G',
         Brand: 'Ferrari',
         Year: '2020',
         Price:'$ 381,469',
@@ -47,7 +47,7 @@ Car.insertMany([
         Contact: '+973 3775 6671'
     },
     {
-        Photo:'',
+        Photo:'https://i.imgur.com/4nTtJXK.jpg',
         Brand: 'Ferrari',
         Year: '2020',
         Price:'$ 599,252',
@@ -56,7 +56,7 @@ Car.insertMany([
     },
 
     {
-        Photo:'',
+        Photo:'https://imgur.com/8JxcCdQ',
         Brand: 'RollsRoyce',
         Year: '2019',
         Price:'$ 647,967',
@@ -64,7 +64,7 @@ Car.insertMany([
         Contact:'+973 6662 2691'
     },
     {
-        Photo:'',
+        Photo:'https://imgur.com/1rmO5e7',
         Brand: 'RollsRoyce',
         Year: '2018',
         Price:'Price On Request',
@@ -73,7 +73,7 @@ Car.insertMany([
     },
 
     {
-        Photo:'',
+        Photo:'https://i.imgur.com/Hra0uzc.jpg',
         Brand: 'AstonMartin',
         Year: '2021',
         Price:'$ 148,809',
@@ -81,7 +81,7 @@ Car.insertMany([
         Contact:'+973 3431 0225'
     },
     {
-        Photo:'',
+        Photo:'https://i.imgur.com/EaIzPLi.jpg',
         Brand: 'AstonMartin',
         Year: '2012',
         Price:'$ 355,917',
@@ -91,15 +91,15 @@ Car.insertMany([
     },
 
     {
-        Photo:'',
+        Photo:'https://imgur.com/dzhcsWR',
         Brand:'Rivian',
         Year:'2022',
         Price:'$ 99,595',
         Description:'Rivian R1T Adventure Package AWD | Excellent condition with only 184 miles. 2022 Rivian R1T Adventure Edition. LA Silver with Black Mountain and Dark Ash wood interior. Large battery pack, 21 wheel and tire package, tow hooks, and quad -motor AWD. Please call to set up an appointment today! Errors and Omissions Disclaimer:Our dealership is not responsible for voided factory warranties. Dealer is not responsible for any option listed in the ad. Please verify the options at the time of purchase. ',
-        Contact:'+973 3947 4769'
+        Contact:'Slack KAREEM'
     },
     {
-        Photo:'',
+        Photo:'https://i.imgur.com/Srq0PHm.jpg',
         Brand:'Rivian',
         Year:'2022',
         Price:'$ 144,950',
@@ -108,7 +108,7 @@ Car.insertMany([
     },
 
     {
-        photo:'',
+        photo:'https://i.imgur.com/kZRcIzR.jpg',
         Brand:'Corvette',
         Year:'2023',
         Price:'$ 116,000',
@@ -116,7 +116,7 @@ Car.insertMany([
         Contact:'+973 6633 1237',
     },
     {
-        photo:'',
+        photo:'https://i.imgur.com/92wn6JT.jpg',
         Brand:'Corvette',
         Year:'2023',
         Price:'$ 63,195',
@@ -125,7 +125,7 @@ Car.insertMany([
     },
 
     {
-        photo:'',
+        photo:'https://i.imgur.com/t5bGoYF.jpg',
         Brand:'McLaren',
         Year:'2022',
         Price:'$ 1,315,000',
@@ -133,7 +133,7 @@ Car.insertMany([
         Contact:'+973 3399 0033',
     },
     {
-        photo:'',
+        photo:'https://i.imgur.com/7jLAsf7.jpg',
         Brand:'McLaren',
         Year:'2022',
         Price:'$ 1,979,098',
