@@ -18,8 +18,12 @@ function CategoryPage(props) {
               <li className='list-2'><Link to='/category/McLaren'><img class="je2-lazy-load _loaded" data-src="https://static-x.jamesedition.com/assets/makes/mclaren-5b7b53b2064741888a99743fa5fd379299af12099ce4407a8db8f246909d9ce3.jpg" alt="mclaren" src="https://static-x.jamesedition.com/assets/makes/mclaren-5b7b53b2064741888a99743fa5fd379299af12099ce4407a8db8f246909d9ce3.jpg"></img></Link> </li>
               <li className='list-2'><Link to='/category/Rivian'><img src="https://i.imgur.com/70L5fwU.jpg"></img></Link> </li>
            </ul>
+
+            <Link to='/NewCar/NewCar'>Sell Car</Link>
+
         </div></>
+
    )}
 
-
+   
    export default CategoryPage
