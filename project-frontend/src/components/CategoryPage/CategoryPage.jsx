@@ -18,8 +18,12 @@ function CategoryPage(props) {
               <li className='list-2'><Link to='/category/McLaren'>McLaren</Link> </li>
               <li className='list-2'><Link to='/category/Corvette'>Corvette</Link> </li>
            </ul>
+
+            <Link to='/NewCar/NewCar'>Sell Car</Link>
+
         </div></>
+
    )}
 
-
+   
    export default CategoryPage
